@@ -1,0 +1,39 @@
+material duck/inner_concrete
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.6 0.6 0.6 1.0
+			diffuse 0.5 0.5 0.5 1.0
+			specular 0.2 0.2 0.2 1.0 12.5
+
+			texture_unit
+			{
+				texture Inner.jpg
+				filtering anistropic
+				max_anisotropy 16
+				scale 0.1 0.1
+			}
+		}
+	}
+}
+
+
+material duck/granite
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+	ambient 1.0 1.0 1.0 1.000000
+	texture_unit
+      {
+	texture granite.jpg
+	//rotate 90
+	scale 1 .2
+      }
+    }
+  }
+}

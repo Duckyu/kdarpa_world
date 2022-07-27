@@ -1,0 +1,57 @@
+material duck/paint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.6 0.6 0.6 1.0
+			diffuse 0.5 0.5 0.5 1.0
+			specular 0.2 0.2 0.2 1.0 12.5
+
+			texture_unit
+			{
+				texture TexturesCom_Wall_Plaster3_3x3_1K_albedo.tif
+				filtering anistropic
+				max_anisotropy 16
+				scale 0.001 0.001
+			}
+		}
+	}
+}
+material duck/paint2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.6 0.6 0.6 1.0
+			diffuse 0.5 0.5 0.5 1.0
+			specular 0.2 0.2 0.2 1.0 12.5
+
+			texture_unit
+			{
+				texture TexturesCom_Wall_Plaster3_3x3_1K_ao.tif
+				filtering anistropic
+				max_anisotropy 16
+				scale 0.001 0.001
+			}
+		}
+	}
+}
+material duck/wall
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.6 0.6 0.6 1.0
+			diffuse 0.5 0.5 0.5 1.0
+			specular 0.2 0.2 0.2 1.0 12.5
+			texture_unit
+			{
+				texture TexturesCom_Metal_Corrugated3_1K_albedo.png
+				scale 1 1
+			}
+		}
+	}
+}

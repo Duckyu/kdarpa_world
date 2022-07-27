@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="thin_2m_pine_tree">
+    <static>true</static>
+    <include>
+      <name>tree0</name>
+      <static>1</static>
+      <uri>model://1m_pine_tree</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>tree2</name>
+      <static>1</static>
+      <uri>model://1m_pine_tree</uri>
+      <pose>0 0 0.25 0 0 0</pose>
+    </include>
+    <include>
+      <name>tree3</name>
+      <static>1</static>
+      <uri>model://1m_pine_tree</uri>
+      <pose>0 0 0.5 0 0 0</pose>
+    </include>
+    <include>
+      <name>tree4</name>
+      <static>1</static>
+      <uri>model://1m_pine_tree</uri>
+      <pose>0 0 0.75 0 0 0</pose>
+    </include>
+    <include>
+      <name>tree6</name>
+      <static>1</static>
+      <uri>model://1m_pine_tree</uri>
+      <pose>0 0 1.0 0 0 0</pose>
+    </include>
+  </model>
+</sdf>

@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="KDARPA">
+  <link
+    name="ground_link">
+    <inertial>
+      <origin
+        xyz="-13.932 18.075 30.466"
+        rpy="0 0 0" />
+      <mass
+        value="5172.5" />
+      <inertia
+        ixx="701310"
+        ixy="-3221.3"
+        ixz="-227660"
+        iyy="1331400"
+        iyz="-20392"
+        izz="638530" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/ground_link.STL" />
+      </geometry>
+      <material
+        name="brick">
+        <color
+          rgba="1 0 0 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Wall_BrickRough1_2x2_1K_albedo.tif" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/ground_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="ground_in_Link">
+    <inertial>
+      <origin
+        xyz="21.815 0.60401 -1.9772"
+        rpy="0 0 0" />
+      <mass
+        value="10829" />
+      <inertia
+        ixx="825040"
+        ixy="506.66"
+        ixz="-437810"
+        iyy="2203700"
+        iyz="2738.4"
+        izz="1396800" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/ground_in_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Wall_Plaster3_3x3_1K_albedo.tif" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/ground_in_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="ground_joint"
+    type="fixed">
+    <origin
+      xyz="-36.18 -26.871 16.246"
+      rpy="1.5708 0 0" />
+    <parent
+      link="ground_link" />
+    <child
+      link="ground_in_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_1_Link">
+    <inertial>
+      <origin
+        xyz="7.1054E-15 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="-4.7705E-15"
+        ixz="2.2263E-14"
+        iyy="35.047"
+        iyz="-2.4395E-16"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_1_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_1_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_1_joint"
+    type="fixed">
+    <origin
+      xyz="3.29 1.85 0.04"
+      rpy="0 0 0" />
+    <parent
+      link="ground_in_Link" />
+    <child
+      link="window_1_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_2_Link">
+    <inertial>
+      <origin
+        xyz="3.5527E-15 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="-4.3368E-16"
+        ixz="-3.998E-15"
+        iyy="35.047"
+        iyz="-4.0658E-16"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_2_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_2_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_2_joint"
+    type="fixed">
+    <origin
+      xyz="9.39 1.85 0.04"
+      rpy="0 0 0" />
+    <parent
+      link="ground_in_Link" />
+    <child
+      link="window_2_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_3_Link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="-3.1292E-16"
+        ixz="-8.5354E-15"
+        iyy="35.047"
+        iyz="-4.5087E-16"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_3_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_3_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_3_joint"
+    type="fixed">
+    <origin
+      xyz="15.49 1.85 0.04"
+      rpy="0 0 0" />
+    <parent
+      link="ground_in_Link" />
+    <child
+      link="window_3_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="indoor_fence_Link">
+    <inertial>
+      <origin
+        xyz="0.0058815 -1.8178E-05 -4.9543E-06"
+        rpy="0 0 0" />
+      <mass
+        value="23.724" />
+      <inertia
+        ixx="4.7495"
+        ixy="-0.00032267"
+        ixz="5.6344E-05"
+        iyy="17.883"
+        iyz="-2.375E-06"
+        izz="22.626" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/indoor_fence_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/naver_com_20110517_210859.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/indoor_fence_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="indoor_fence_joint"
+    type="fixed">
+    <origin
+      xyz="21.32 0.759999999999998 -3.61"
+      rpy="0 0 0" />
+    <parent
+      link="ground_in_Link" />
+    <child
+      link="indoor_fence_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_4_Link">
+    <inertial>
+      <origin
+        xyz="3.5527E-15 -3.5527E-15 -1.7764E-15"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="3.9031E-15"
+        ixz="-2.8393E-15"
+        iyy="35.047"
+        iyz="-2.0329E-17"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_4_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_4_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_4_joint"
+    type="fixed">
+    <origin
+      xyz="24.16 1.85 3.31000000000001"
+      rpy="0 -1.5707963267949 0" />
+    <parent
+      link="ground_in_Link" />
+    <child
+      link="window_4_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_5_Link">
+    <inertial>
+      <origin
+        xyz="0 -3.5527E-15 0"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="4.3368E-15"
+        ixz="-1.8702E-14"
+        iyy="35.047"
+        iyz="-2.9816E-16"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_5_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_5_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_5_joint"
+    type="fixed">
+    <origin
+      xyz="24.16 1.85000000000004 9.80999999999999"
+      rpy="0 -1.5707963267949 0" />
+    <parent
+      link="ground_in_Link" />
+    <child
+      link="window_5_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_6_Link">
+    <inertial>
+      <origin
+        xyz="-1.7764E-15 -3.5527E-15 -1.7764E-15"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="5.2871E-15"
+        ixz="-5.3939E-15"
+        iyy="35.047"
+        iyz="2.6587E-16"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_6_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_6_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_6_joint"
+    type="fixed">
+    <origin
+      xyz="22.13 0 -12.943"
+      rpy="3.14159265358979 0 3.14159265358979" />
+    <parent
+      link="ground_in_Link" />
+    <child
+      link="window_6_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="stair_1_link">
+    <inertial>
+      <origin
+        xyz="22.143 1.428 -9.7626"
+        rpy="0 0 0" />
+      <mass
+        value="7454.1" />
+      <inertia
+        ixx="30041"
+        ixy="-3763.4"
+        ixz="-248.04"
+        iyy="37239"
+        iyz="-975.09"
+        izz="14271" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/stair_1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+        <texture
+          filename="package://KDARPA/textures/Inner.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/stair_1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="stair_1_joint"
+    type="fixed">
+    <origin
+      xyz="0.00999999999999801 -2.98999999999999 0"
+      rpy="0 0 0" />
+    <parent
+      link="ground_in_Link" />
+    <child
+      link="stair_1_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="handle_1_Link">
+    <inertial>
+      <origin
+        xyz="20.185 2.3951 -8.662"
+        rpy="0 0 0" />
+      <mass
+        value="109.15" />
+      <inertia
+        ixx="265.01"
+        ixy="-9.9549"
+        ixz="1.3613"
+        iyy="180.2"
+        iyz="9.7341"
+        izz="88.343" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/handle_1_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/handle_1_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="handle_1_joint"
+    type="fixed">
+    <origin
+      xyz="1.94 0 0.000137515459705639"
+      rpy="0 0 0" />
+    <parent
+      link="stair_1_link" />
+    <child
+      link="handle_1_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="base_Link">
+    <inertial>
+      <origin
+        xyz="21.914 0.14966 -1.538"
+        rpy="0 0 0" />
+      <mass
+        value="200210" />
+      <inertia
+        ixx="12465000"
+        ixy="-117.22"
+        ixz="-7652700"
+        iyy="35308000"
+        iyz="354.57"
+        izz="22847000" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/base_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/outer.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/base_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_joint"
+    type="fixed">
+    <origin
+      xyz="-36.18 -26.871 15.946"
+      rpy="1.5708 0 0" />
+    <parent
+      link="ground_link" />
+    <child
+      link="base_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="outdoor_left_wall">
+    <inertial>
+      <origin
+        xyz="11.359 2 -4.891"
+        rpy="0 0 0" />
+      <mass
+        value="1100.4" />
+      <inertia
+        ixx="1662.5"
+        ixy="-6.6145E-11"
+        ixz="1426.2"
+        iyy="66546"
+        iyz="1.0102E-11"
+        izz="67818" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/outdoor_left_wall.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/outer.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/outdoor_left_wall.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="outdoor_left_wall_joint"
+    type="fixed">
+    <origin
+      xyz="-51.18 -34.981 15.946"
+      rpy="1.5708 0 0" />
+    <parent
+      link="ground_link" />
+    <child
+      link="outdoor_left_wall" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="outdoor_right_wall">
+    <inertial>
+      <origin
+        xyz="12.49 2 -0.015"
+        rpy="0 0 0" />
+      <mass
+        value="1000" />
+      <inertia
+        ixx="1333.3"
+        ixy="0"
+        ixz="1.4456E-15"
+        iyy="52083"
+        iyz="1.7223E-29"
+        izz="53417" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/outdoor_right_wall.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/outer.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/outdoor_right_wall.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="outdoor_right_wall_joint"
+    type="fixed">
+    <origin
+      xyz="-51.18 -34.981 15.946"
+      rpy="1.5708 0 0" />
+    <parent
+      link="ground_link" />
+    <child
+      link="outdoor_right_wall" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="front_door_link">
+    <inertial>
+      <origin
+        xyz="1.8 1.2792 0.20339"
+        rpy="0 0 0" />
+      <mass
+        value="69.384" />
+      <inertia
+        ixx="48.209"
+        ixy="-1.8692E-13"
+        ixz="-9.7271E-14"
+        iyy="88.595"
+        iyz="3.9407"
+        izz="126.72" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/front_door_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/naver_com_20110517_210859.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/front_door_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_door_joint"
+    type="fixed">
+    <origin
+      xyz="-15.69 -26.891 16.256"
+      rpy="1.5708 0 0" />
+    <parent
+      link="ground_link" />
+    <child
+      link="front_door_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="side_door_link">
+    <inertial>
+      <origin
+        xyz="0.9 1.0334 -0.35859"
+        rpy="0 0 0" />
+      <mass
+        value="115.32" />
+      <inertia
+        ixx="53.289"
+        ixy="5.4685E-13"
+        ixz="-2.7142E-13"
+        iyy="88.705"
+        iyz="-5.1016"
+        izz="123.12" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/side_door_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/naver_com_20110517_210859.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/side_door_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="side_door_joint"
+    type="fixed">
+    <origin
+      xyz="-12 -42.988 16.256"
+      rpy="1.5708 0 1.5708" />
+    <parent
+      link="ground_link" />
+    <child
+      link="side_door_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="second_out_Link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/second_out_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Wall_BrickRough1_2x2_1K_albedo.tif" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/second_out_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="second_out_joint"
+    type="fixed">
+    <origin
+      xyz="-36.1795802683966 -26.8811318137481 19.2456664197819"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="ground_link" />
+    <child
+      link="second_out_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="second_in_Link">
+    <inertial>
+      <origin
+        xyz="23.789 0.87603 -2.3459"
+        rpy="0 0 0" />
+      <mass
+        value="14359" />
+      <inertia
+        ixx="783000"
+        ixy="-23710"
+        ixz="-427660"
+        iyy="2360100"
+        iyz="-5059.5"
+        izz="1605700" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/second_in_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Wall_Plaster3_3x3_1K_albedo.tif" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/second_in_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="second_in_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="second_out_Link" />
+    <child
+      link="second_in_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_7_Link">
+    <inertial>
+      <origin
+        xyz="7.1054E-15 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="-4.12E-15"
+        ixz="2.225E-14"
+        iyy="35.047"
+        iyz="-2.1006E-16"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_7_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_7_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_7_joint"
+    type="fixed">
+    <origin
+      xyz="3.3 1.85 0.0400000000000027"
+      rpy="0 0 0" />
+    <parent
+      link="second_in_Link" />
+    <child
+      link="window_7_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_8_Link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="-4.3358E-16"
+        ixz="-8.5516E-15"
+        iyy="35.047"
+        iyz="-4.6756E-16"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_8_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_8_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_8_joint"
+    type="fixed">
+    <origin
+      xyz="9.40000000000001 1.85 0.0400000000000063"
+      rpy="0 0 0" />
+    <parent
+      link="second_in_Link" />
+    <child
+      link="window_8_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_9_Link">
+    <inertial>
+      <origin
+        xyz="3.5527E-15 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="-6.5052E-16"
+        ixz="-4.0387E-15"
+        iyy="35.047"
+        iyz="-4.0658E-16"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_9_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_9_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_9_joint"
+    type="fixed">
+    <origin
+      xyz="15.5 1.85 0.04"
+      rpy="0 0 0" />
+    <parent
+      link="second_in_Link" />
+    <child
+      link="window_9_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_10_link">
+    <inertial>
+      <origin
+        xyz="3.5527E-15 3.5527E-15 3.5527E-15"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="-2.3551E-14"
+        ixz="-2.8536E-15"
+        iyy="35.047"
+        iyz="-9.0991E-16"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_10_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_10_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_10_joint"
+    type="fixed">
+    <origin
+      xyz="21.59 1.85 0.0499999999999972"
+      rpy="0 0 0" />
+    <parent
+      link="second_in_Link" />
+    <child
+      link="window_10_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_11_Link">
+    <inertial>
+      <origin
+        xyz="-7.1054E-15 3.5527E-15 0"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="1.4311E-14"
+        ixz="-6.93E-15"
+        iyy="35.047"
+        iyz="-4.4723E-16"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_11_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_11_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_11_joint"
+    type="fixed">
+    <origin
+      xyz="24.15 1.85 9.81000000000001"
+      rpy="0 -1.5707963267949 0" />
+    <parent
+      link="second_in_Link" />
+    <child
+      link="window_11_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_12_Link">
+    <inertial>
+      <origin
+        xyz="0 3.5527E-15 0"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="-2.9057E-14"
+        ixz="-3.8438E-15"
+        iyy="35.047"
+        iyz="-3.7239E-16"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_12_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_12_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_12_joint"
+    type="fixed">
+    <origin
+      xyz="22.13 0 -12.953"
+      rpy="3.14159265358979 0 3.14159265358979" />
+    <parent
+      link="second_in_Link" />
+    <child
+      link="window_12_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_13_Link">
+    <inertial>
+      <origin
+        xyz="0 3.5527E-15 0"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="-2.9044E-14"
+        ixz="-3.8682E-15"
+        iyy="35.047"
+        iyz="-3.7046E-16"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_13_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_13_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_13_joint"
+    type="fixed">
+    <origin
+      xyz="22.13 3 -12.953"
+      rpy="3.14159265358979 0 3.14159265358979" />
+    <parent
+      link="second_in_Link" />
+    <child
+      link="window_13_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_14_Link">
+    <inertial>
+      <origin
+        xyz="-1.7764E-15 0 1.7764E-15"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="3.773E-14"
+        ixz="-4.9873E-15"
+        iyy="35.047"
+        iyz="-1.0164E-16"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_14_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_14_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_14_joint"
+    type="fixed">
+    <origin
+      xyz="27.35 1.85 -12.953"
+      rpy="3.14159265358979 0 3.14159265358979" />
+    <parent
+      link="second_in_Link" />
+    <child
+      link="window_14_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_15_Link">
+    <inertial>
+      <origin
+        xyz="0 0 -1.6653E-16"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="-6.0614E-14"
+        ixz="-2.9816E-15"
+        iyy="35.047"
+        iyz="1.0159E-15"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_15_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_15_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_15_joint"
+    type="fixed">
+    <origin
+      xyz="36.598 1.84999999999996 3.80699999999999"
+      rpy="0 1.5707963267949 0" />
+    <parent
+      link="second_in_Link" />
+    <child
+      link="window_15_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="window_16_Link">
+    <inertial>
+      <origin
+        xyz="-1.4211E-14 0 1.6653E-16"
+        rpy="0 0 0" />
+      <mass
+        value="58.464" />
+      <inertia
+        ixx="16.058"
+        ixy="4.819E-14"
+        ixz="5.3295E-15"
+        iyy="35.047"
+        iyz="4.9896E-16"
+        izz="51.023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_16_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/window_16_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="window_16_joint"
+    type="fixed">
+    <origin
+      xyz="36.598 1.85000000000001 9.907"
+      rpy="0 1.5707963267949 0" />
+    <parent
+      link="second_in_Link" />
+    <child
+      link="window_16_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="open_window_Link">
+    <inertial>
+      <origin
+        xyz="-7.1054E-15 -3.5527E-15 1.7764E-15"
+        rpy="0 0 0" />
+      <mass
+        value="24.36" />
+      <inertia
+        ixx="6.679"
+        ixy="1.1991E-14"
+        ixz="3.7586E-17"
+        iyy="1.7258"
+        iyz="1.604E-17"
+        izz="8.3947" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/open_window_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/open_window_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="open_window_joint"
+    type="fixed">
+    <origin
+      xyz="24.175 1.84999999999999 3.31"
+      rpy="0 -1.5707963267949 0" />
+    <parent
+      link="second_in_Link" />
+    <child
+      link="open_window_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="stair_2_Link">
+    <inertial>
+      <origin
+        xyz="22.153 1.438 -9.7526"
+        rpy="0 0 0" />
+      <mass
+        value="7454.1" />
+      <inertia
+        ixx="30041"
+        ixy="-3763.4"
+        ixz="-248.04"
+        iyy="37239"
+        iyz="-975.09"
+        izz="14271" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/stair_2_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+        <texture
+          filename="package://KDARPA/textures/Inner.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/stair_2_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="stair_2_joint"
+    type="fixed">
+    <origin
+      xyz="0 -3 -0.0100000000000016"
+      rpy="0 0 0" />
+    <parent
+      link="second_in_Link" />
+    <child
+      link="stair_2_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="handle_2_Link">
+    <inertial>
+      <origin
+        xyz="20.185 2.3951 -8.662"
+        rpy="0 0 0" />
+      <mass
+        value="109.15" />
+      <inertia
+        ixx="265.01"
+        ixy="-9.9549"
+        ixz="1.3613"
+        iyy="180.2"
+        iyz="9.7341"
+        izz="88.343" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/handle_2_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/handle_2_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="handle_2_joint"
+    type="fixed">
+    <origin
+      xyz="1.95 0.0100000000000087 0.0101375154597036"
+      rpy="0 0 0" />
+    <parent
+      link="stair_2_Link" />
+    <child
+      link="handle_2_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="stair_3_link">
+    <inertial>
+      <origin
+        xyz="22.153 1.438 -9.7626"
+        rpy="0 0 0" />
+      <mass
+        value="7454.1" />
+      <inertia
+        ixx="30041"
+        ixy="-3763.4"
+        ixz="-248.04"
+        iyy="37239"
+        iyz="-975.09"
+        izz="14271" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/stair_3_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+        <texture
+          filename="package://KDARPA/textures/Inner.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/stair_3_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="stair_3_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="second_in_Link" />
+    <child
+      link="stair_3_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="handle_3_Link">
+    <inertial>
+      <origin
+        xyz="20.185 2.3951 -8.662"
+        rpy="0 0 0" />
+      <mass
+        value="109.15" />
+      <inertia
+        ixx="265.01"
+        ixy="-9.9549"
+        ixz="1.3613"
+        iyy="180.2"
+        iyz="9.7341"
+        izz="88.343" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/handle_3_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+        <texture
+          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://KDARPA/meshes/handle_3_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="handle_3_joint"
+    type="fixed">
+    <origin
+      xyz="1.95 0.01 0.00013752"
+      rpy="0 0 0" />
+    <parent
+      link="stair_3_link" />
+    <child
+      link="handle_3_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <gazebo reference="ground_link">
+    <material>
+      duck/red_brick
+    </material>
+  </gazebo>
+  <gazebo reference="ground_in_Link">
+    <material>
+      duck/paint2
+    </material>
+  </gazebo>
+  <gazebo reference="window_1_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_2_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_3_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_4_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_5_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_6_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_7_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_8_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_9_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_10_link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_11_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_12_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_13_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_14_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_15_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="window_16_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  <gazebo reference="indoor_fence_Link">
+    <material>
+      duck/hairline_metal
+    </material>
+  </gazebo>
+  <gazebo reference="stair_1_link">
+    <material>
+      duck/granite
+    </material>
+  </gazebo>
+  <gazebo reference="stair_2_Link">
+    <material>
+      duck/granite
+    </material>
+  </gazebo>
+  <gazebo reference="stair_3_link">
+    <material>
+      duck/granite
+    </material>
+  </gazebo>
+  <gazebo reference="handle_1_Link">
+    <material>
+      duck/hairline_metal
+    </material>
+  </gazebo>
+  <gazebo reference="handle_2_Link">
+    <material>
+      duck/hairline_metal
+    </material>
+  </gazebo>
+  <gazebo reference="handle_3_Link">
+    <material>
+      duck/hairline_metal
+    </material>
+  </gazebo>
+  <gazebo reference="base_Link">
+    <material>
+      duck/white_brick
+    </material>
+  </gazebo>
+  <gazebo reference="outdoor_left_wall">
+    <material>
+      duck/wall
+    </material>
+  </gazebo>
+  <gazebo reference="outdoor_right_wall">
+    <material>
+      duck/wall
+    </material>
+  </gazebo>
+  <gazebo reference="front_door_link">
+    <material>
+      duck/hairline_metal
+    </material>
+  </gazebo>
+  <gazebo reference="side_door_link">
+    <material>
+      duck/hairline_metal
+    </material>
+  </gazebo>
+  <gazebo reference="second_out_Link">
+    <material>
+      duck/red_brick
+    </material>
+  </gazebo>
+  <gazebo reference="second_in_Link">
+    <material>
+      duck/paint2
+    </material>
+  </gazebo>
+  <gazebo reference="open_window_Link">
+    <material>
+      duck/vinyl
+    </material>
+  </gazebo>
+  
+</robot>

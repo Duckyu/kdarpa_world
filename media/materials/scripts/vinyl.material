@@ -1,0 +1,14 @@
+material duck/vinyl
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture TexturesCom_Tape0020_1_S.jpg
+				scale 1 1
+			}
+		}
+	}
+}
