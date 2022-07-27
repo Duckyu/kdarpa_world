@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='outdoor_fence_duck'>
+    <static>true</static>
+      <link name='outdoor_fence_duck'>
+        <pose frame=''>0 0 0 0 1.570796 0</pose>
+         <collision name='outdoor_fence_duck'>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://outdoor_fence_duck/meshes/outdoor_fence.STL</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='outdoor_fence_duck'>
+        <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://outdoor_fence_duck/meshes/outdoor_fence.STL</uri>
+            </mesh>
+          </geometry>
+          <material>
+            duck/hairline_metal
+          </material>
+        </visual>
+      </link>
+  </model>
+</sdf>

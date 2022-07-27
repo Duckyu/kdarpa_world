@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='tent_add'>
+    <static>true</static>
+      <link name='tent_add'>
+        <pose frame=''>0 0 0 1.57 0 0</pose>
+         <collision name='tent_add'>
+          <geometry>
+            <mesh>
+              <scale>0.02 0.04 0.02</scale>
+              <!-- <uri>model://tent_add/MilitaryTentSub.obj</uri> -->
+              <uri>model://tent_add/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='tent_add'>
+        <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <scale>0.02 0.04 0.02</scale>
+              <!-- <uri>model://tent_add/MilitaryTentSub.obj</uri> -->
+              <uri>model://tent_add/model.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>tent_add</name>
+              <!-- <uri>model://tent_add/MilitaryTentSub.obj</uri> -->
+              <uri>model://tent_add/model.dae</uri>
+            </script>
+          </material>
+        </visual>
+      </link>
+  </model>
+</sdf>

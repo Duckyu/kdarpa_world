@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='bed_add'>
+    <static>true</static>
+      <link name='bed_add'>
+        <pose frame=''>0 0 0.4 1.57 0 0</pose>
+         <collision name='bed_add'>
+          <geometry>
+            <mesh>
+              <scale>0.5 0.5 0.5</scale>
+              <uri>model://bed_add/bed.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='bed_add'>
+        <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <scale>0.5 0.5 0.5</scale>
+              <uri>model://bed_add/bed.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>bed_add</name>
+              <uri>model://bed_add/bed.dae</uri>
+            </script>
+          </material>
+        </visual>
+      </link>
+  </model>
+</sdf>

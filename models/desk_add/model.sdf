@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='desk_add'>
+    <static>true</static>
+      <link name='desk_add'>
+        <pose frame=''>0 0 0 1.57 0 0</pose>
+         <collision name='desk_add'>
+          <geometry>
+            <mesh>
+              <scale>0.007 0.007 0.007</scale>
+              <uri>model://desk_add/desk.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='desk_add'>
+        <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <scale>0.007 0.007 0.007</scale>
+              <uri>model://desk_add/desk.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>desk_add</name>
+              <uri>model://desk_add/desk.dae</uri>
+            </script>
+          </material>
+        </visual>
+      </link>
+  </model>
+</sdf>

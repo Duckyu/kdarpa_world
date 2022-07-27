@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='radio_add'>
+    <static>true</static>
+      <link name='radio_add'>
+        <pose frame=''>0 0 0 1.57 0 0</pose>
+         <collision name='radio_add'>
+          <geometry>
+            <mesh>
+              <scale>0.007 0.007 0.007</scale>
+              <uri>model://radio_add/radio.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='radio_add'>
+        <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <scale>0.007 0.007 0.007</scale>
+              <uri>model://radio_add/radio.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>radio_add</name>
+              <uri>model://radio_add/radio.dae</uri>
+            </script>
+          </material>
+        </visual>
+      </link>
+  </model>
+</sdf>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='fence2_add'>
+    <static>true</static>
+      <link name='fence2_add'>
+        <pose frame=''>0 0 0 1.57 0 0</pose>
+         <collision name='fence2_add'>
+          <geometry>
+            <mesh>
+              <scale>0.005 0.008 0.008</scale>
+              <uri>model://fence2_add/model.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='fence2_add'>
+        <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <scale>0.005 0.008 0.008</scale>
+              <uri>model://fence2_add/model.obj</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>fence2_add</name>
+              <uri>model://fence2_add/model.obj</uri>
+            </script>
+          </material>
+        </visual>
+      </link>
+  </model>
+</sdf>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='weapon_add'>
+    <static>true</static>
+      <link name='weapon_add'>
+        <pose frame=''>0 0 1.1 3.14 0 3.14</pose>
+         <collision name='weapon_add'>
+          <geometry>
+            <mesh>
+              <scale>2 2 2</scale>
+              <uri>model://weapon_add/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='weapon_add'>
+        <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <scale>2 2 2</scale>
+              <uri>model://weapon_add/model.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>weapon_add</name>
+              <uri>model://weapon_add/model.dae</uri>
+            </script>
+          </material>
+        </visual>
+      </link>
+  </model>
+</sdf>

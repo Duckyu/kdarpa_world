@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='sandbag_add'>
+    <static>true</static>
+      <link name='sandbag_add'>
+        <pose frame=''>0 0 0 1.57 0 0</pose>
+         <collision name='sandbag_add'>
+          <geometry>
+            <mesh>
+              <scale>0.05 0.1 0.05</scale>
+              <uri>model://sandbag_add/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='sandbag_add'>
+        <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <scale>0.05 0.1 0.05</scale>
+              <uri>model://sandbag_add/model.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>sandbag_add</name>
+              <uri>model://sandbag_add/model.dae</uri>
+            </script>
+          </material>
+        </visual>
+      </link>
+  </model>
+</sdf>
