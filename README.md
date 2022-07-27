@@ -1,15 +1,15 @@
 # KDARPA_world
 -----
 ## Content
- Gazebo map of "2022 ADD Drone competition". Target building is "Daejeon Drone&Robot Support Center". The building has drawn by Solidworks and converted by the [SW2URDF plugin]("http://wiki.ros.org/sw_urdf_exporter").    
+ Gazebo map of "2022 ADD Drone competition". Target building is "Daejeon Drone&Robot Support Center". The building has drawn by Solidworks and converted by the [SW2URDF plugin](http://wiki.ros.org/sw_urdf_exporter).    
  <img src="pics/top_view.png" width="30%" height="30%" title="Top View" alt="Top View"></img><img src="pics/top_indoor.png" width="30%" height="30%" title="Indoor View" alt="Indoor View"></img></img><img src="pics/top_outdoor.png" width="30%" height="30%" title="Outdoor View" alt="Outdoor View"></img>   
  Using the CAD file in this map is not permitted. Please contact to the author of this CAD file.   
 
 ## HOW TO USE
 1. Clone this repository at your ROS workspace.
 2. Build the package
-3. Use the [install.sh](#install.sh) to setup GAZEBO environment.
-4. Type the below terminal command to check out [final version of gazebo map](#worlds/final_kdarpa.world)
+3. Use the [install.sh](/install.sh) to setup GAZEBO environment.
+4. Type the below terminal command to check out [final version of gazebo map](/worlds/final_kdarpa.world)
   ```bash
   $ roslaunch gazebo_ros empty_world.launch world_name:=$(rospack find KDARPA)/worlds/final_kdarpa.world
   ```
@@ -20,7 +20,8 @@
  
  ## MEMO
  ### SW2URDF plugin 사용 방법
- * 꽤 잘 정리된 링크: [**YOUTUBE link**]("https://www.youtube.com/watch?v=OSL-zqw4cXs&t=285s")   
+ * 꽤 잘 정리된 링크: [**YOUTUBE link**](https://www.youtube.com/watch?v=OSL-zqw4cXs&t=285s)   
+ * 설치할 때도 Solidworks 버젼에 적합한거를 잘골라서 설치해야함.   
  * 주의사항은 **Global Origin**을 잘잡아야함.
  ### SW2URDF plugin 적용 팁
   SW2URDF plugin을 사용해 출력된 패키지를 활용하면 RVIZ에서는 urdf의 material을 참조할 수 있지만, GAZEBO simulator에서는 인식이 되지 않음.   
