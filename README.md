@@ -21,7 +21,7 @@
  ## MEMO
  ### SW2URDF plugin 사용 방법
  * 꽤 잘 정리된 링크: [**YOUTUBE link**](https://www.youtube.com/watch?v=OSL-zqw4cXs&t=285s)   
- * 설치할 때도 Solidworks 버젼에 적합한거를 잘골라서 설치해야함.   
+ * 설치할 때도 Solidworks 버젼에 [적합한 버젼](https://github.com/ros/solidworks_urdf_exporter/tags)를 잘골라서 설치해야함.   
  * 주의사항은 **Global Origin**을 잘잡아야함.
  ### SW2URDF plugin 적용 팁
   SW2URDF plugin을 사용해 출력된 패키지를 활용하면 RVIZ에서는 urdf의 material을 참조할 수 있지만, GAZEBO simulator에서는 인식이 되지 않음.   
