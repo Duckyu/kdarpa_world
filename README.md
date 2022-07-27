@@ -25,5 +25,5 @@
  ### SW2URDF plugin 적용 팁
   SW2URDF plugin을 사용해 출력된 패키지를 활용하면 RVIZ에서는 urdf의 material을 참조할 수 있지만, GAZEBO simulator에서는 인식이 되지 않음.   
   아마 GAZEBO는 sdf 형식의 파일을 기본으로 사용하기 때문에 urdf 형식의 파일을 sdf 형식으로 변환하는 과정 중에 문제가 발생하는 것으로 보임.   
-  이 문제를 해결하기 위하여 상위 디렉토리에 [media](#media), [media/scripts](#media/scripts) 디렉토리를 생성하고 plugin에서 자동적으로 생성해준 textures 디렉토리를 media/textures에 soft linking 해줌으로써 URDF을 생성할 당시 지정하였던 텍스쳐 정보를 활용함.   
-  구체적인 방법으로는 media/scripts에서 media/textures의 파일을 기반으로 하는 material들을 정의([example](#media/scripts/paint.material))해주고 이를 URDF에 gazebo 요소([example](#urdf/KDARPA.urdf#L1969))로 추가함으로써 해결함.   
+  이 문제를 해결하기 위하여 상위 디렉토리에 [media](#/media), [media/scripts](#/media/scripts) 디렉토리를 생성하고 plugin에서 자동적으로 생성해준 textures 디렉토리를 media/textures에 soft linking 해줌으로써 URDF을 생성할 당시 지정하였던 텍스쳐 정보를 활용함.   
+  구체적인 방법으로는 media/scripts에서 media/textures의 파일을 기반으로 하는 material들을 정의([example](#/media/scripts/paint.material))해주고 이를 URDF에 gazebo 요소([example](#/urdf/KDARPA.urdf#L1969))로 추가함으로써 해결함.   
