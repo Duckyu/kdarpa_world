@@ -9,9 +9,9 @@
 1. Clone this repository at your ROS workspace.
 2. Build the package
 3. Use the [install.sh](/install.sh) to setup GAZEBO environment.
-4. Type the below terminal command to check out [final version of gazebo map](/worlds/final_kdarpa.world)
+4. Type the below terminal command to check out [final version of gazebo map](/launch/gazebo.launch)
   ```bash
-  $ roslaunch gazebo_ros empty_world.launch world_name:=$(rospack find KDARPA)/worlds/final_kdarpa.world
+  $ roslaunch kdarpa_world gazebo.launch
   ```
 
 ## Caution
