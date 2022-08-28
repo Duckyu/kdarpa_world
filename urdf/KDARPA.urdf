@@ -3,7 +3,7 @@
      Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot
-  name="KDARPA">
+  name="kdarpa_world">
   <link
     name="ground_link">
     <inertial>
@@ -26,14 +26,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/ground_link.STL" />
+          filename="package://kdarpa_world/meshes/ground_link.STL" />
       </geometry>
       <material
         name="brick">
         <color
           rgba="1 0 0 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Wall_BrickRough1_2x2_1K_albedo.tif" />
+          filename="package://kdarpa_world/textures/TexturesCom_Wall_BrickRough1_2x2_1K_albedo.tif" />
       </material>
     </visual>
     <collision>
@@ -42,7 +42,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/ground_link.STL" />
+          filename="package://kdarpa_world/meshes/ground_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -68,14 +68,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/ground_in_Link.STL" />
+          filename="package://kdarpa_world/meshes/ground_in_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Wall_Plaster3_3x3_1K_albedo.tif" />
+          filename="package://kdarpa_world/textures/TexturesCom_Wall_Plaster3_3x3_1K_albedo.tif" />
       </material>
     </visual>
     <collision>
@@ -84,7 +84,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/ground_in_Link.STL" />
+          filename="package://kdarpa_world/meshes/ground_in_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -123,14 +123,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_1_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_1_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -139,7 +139,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_1_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_1_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -178,14 +178,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_2_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_2_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -194,7 +194,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_2_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_2_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -233,14 +233,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_3_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_3_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -249,7 +249,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_3_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_3_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -288,14 +288,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/indoor_fence_Link.STL" />
+          filename="package://kdarpa_world/meshes/indoor_fence_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/naver_com_20110517_210859.jpg" />
+          filename="package://kdarpa_world/textures/naver_com_20110517_210859.jpg" />
       </material>
     </visual>
     <collision>
@@ -304,7 +304,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/indoor_fence_Link.STL" />
+          filename="package://kdarpa_world/meshes/indoor_fence_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -343,14 +343,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_4_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_4_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -359,7 +359,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_4_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_4_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -398,14 +398,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_5_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_5_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -414,7 +414,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_5_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_5_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -453,14 +453,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_6_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_6_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -469,7 +469,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_6_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_6_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -508,14 +508,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/stair_1_link.STL" />
+          filename="package://kdarpa_world/meshes/stair_1_link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="1 1 1 1" />
         <texture
-          filename="package://KDARPA/textures/Inner.jpg" />
+          filename="package://kdarpa_world/textures/Inner.jpg" />
       </material>
     </visual>
     <collision>
@@ -524,7 +524,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/stair_1_link.STL" />
+          filename="package://kdarpa_world/meshes/stair_1_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -563,14 +563,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/handle_1_Link.STL" />
+          filename="package://kdarpa_world/meshes/handle_1_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="1 1 1 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -579,7 +579,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/handle_1_Link.STL" />
+          filename="package://kdarpa_world/meshes/handle_1_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -618,14 +618,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/base_Link.STL" />
+          filename="package://kdarpa_world/meshes/base_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/outer.jpg" />
+          filename="package://kdarpa_world/textures/outer.jpg" />
       </material>
     </visual>
     <collision>
@@ -634,7 +634,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/base_Link.STL" />
+          filename="package://kdarpa_world/meshes/base_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -673,14 +673,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/outdoor_left_wall.STL" />
+          filename="package://kdarpa_world/meshes/outdoor_left_wall.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/outer.jpg" />
+          filename="package://kdarpa_world/textures/outer.jpg" />
       </material>
     </visual>
     <collision>
@@ -689,7 +689,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/outdoor_left_wall.STL" />
+          filename="package://kdarpa_world/meshes/outdoor_left_wall.STL" />
       </geometry>
     </collision>
   </link>
@@ -728,14 +728,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/outdoor_right_wall.STL" />
+          filename="package://kdarpa_world/meshes/outdoor_right_wall.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/outer.jpg" />
+          filename="package://kdarpa_world/textures/outer.jpg" />
       </material>
     </visual>
     <collision>
@@ -744,7 +744,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/outdoor_right_wall.STL" />
+          filename="package://kdarpa_world/meshes/outdoor_right_wall.STL" />
       </geometry>
     </collision>
   </link>
@@ -783,14 +783,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/front_door_link.STL" />
+          filename="package://kdarpa_world/meshes/front_door_link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/naver_com_20110517_210859.jpg" />
+          filename="package://kdarpa_world/textures/naver_com_20110517_210859.jpg" />
       </material>
     </visual>
     <collision>
@@ -799,7 +799,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/front_door_link.STL" />
+          filename="package://kdarpa_world/meshes/front_door_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -838,14 +838,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/side_door_link.STL" />
+          filename="package://kdarpa_world/meshes/side_door_link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/naver_com_20110517_210859.jpg" />
+          filename="package://kdarpa_world/textures/naver_com_20110517_210859.jpg" />
       </material>
     </visual>
     <collision>
@@ -854,7 +854,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/side_door_link.STL" />
+          filename="package://kdarpa_world/meshes/side_door_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -893,14 +893,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/second_out_Link.STL" />
+          filename="package://kdarpa_world/meshes/second_out_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="1 1 1 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Wall_BrickRough1_2x2_1K_albedo.tif" />
+          filename="package://kdarpa_world/textures/TexturesCom_Wall_BrickRough1_2x2_1K_albedo.tif" />
       </material>
     </visual>
     <collision>
@@ -909,7 +909,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/second_out_Link.STL" />
+          filename="package://kdarpa_world/meshes/second_out_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -948,14 +948,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/second_in_Link.STL" />
+          filename="package://kdarpa_world/meshes/second_in_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Wall_Plaster3_3x3_1K_albedo.tif" />
+          filename="package://kdarpa_world/textures/TexturesCom_Wall_Plaster3_3x3_1K_albedo.tif" />
       </material>
     </visual>
     <collision>
@@ -964,7 +964,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/second_in_Link.STL" />
+          filename="package://kdarpa_world/meshes/second_in_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1003,14 +1003,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_7_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_7_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -1019,7 +1019,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_7_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_7_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1058,14 +1058,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_8_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_8_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -1074,7 +1074,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_8_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_8_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1113,14 +1113,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_9_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_9_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -1129,7 +1129,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_9_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_9_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1168,14 +1168,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_10_link.STL" />
+          filename="package://kdarpa_world/meshes/window_10_link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -1184,7 +1184,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_10_link.STL" />
+          filename="package://kdarpa_world/meshes/window_10_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1223,14 +1223,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_11_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_11_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -1239,7 +1239,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_11_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_11_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1278,14 +1278,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_12_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_12_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -1294,7 +1294,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_12_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_12_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1333,14 +1333,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_13_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_13_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -1349,7 +1349,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_13_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_13_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1388,14 +1388,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_14_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_14_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -1404,7 +1404,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_14_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_14_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1443,14 +1443,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_15_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_15_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -1459,7 +1459,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_15_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_15_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1498,14 +1498,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_16_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_16_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -1514,7 +1514,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/window_16_Link.STL" />
+          filename="package://kdarpa_world/meshes/window_16_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1553,14 +1553,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/open_window_Link.STL" />
+          filename="package://kdarpa_world/meshes/open_window_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -1569,7 +1569,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/open_window_Link.STL" />
+          filename="package://kdarpa_world/meshes/open_window_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1608,14 +1608,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/stair_2_Link.STL" />
+          filename="package://kdarpa_world/meshes/stair_2_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="1 1 1 1" />
         <texture
-          filename="package://KDARPA/textures/Inner.jpg" />
+          filename="package://kdarpa_world/textures/Inner.jpg" />
       </material>
     </visual>
     <collision>
@@ -1624,7 +1624,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/stair_2_Link.STL" />
+          filename="package://kdarpa_world/meshes/stair_2_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1663,14 +1663,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/handle_2_Link.STL" />
+          filename="package://kdarpa_world/meshes/handle_2_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="1 1 1 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -1679,7 +1679,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/handle_2_Link.STL" />
+          filename="package://kdarpa_world/meshes/handle_2_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1773,14 +1773,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/handle_3_Link.STL" />
+          filename="package://kdarpa_world/meshes/handle_3_Link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="1 1 1 1" />
         <texture
-          filename="package://KDARPA/textures/TexturesCom_Tape0020_1_S.jpg" />
+          filename="package://kdarpa_world/textures/TexturesCom_Tape0020_1_S.jpg" />
       </material>
     </visual>
     <collision>
@@ -1789,7 +1789,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/handle_3_Link.STL" />
+          filename="package://kdarpa_world/meshes/handle_3_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1970,6 +1970,11 @@
     <material>
       duck/vinyl
     </material>
+  </gazebo>
+  <gazebo>
+    <static>
+      1
+    </static>
   </gazebo>
   
 </robot>

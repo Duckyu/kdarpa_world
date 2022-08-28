@@ -39,7 +39,7 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <model name='KDARPA'>
+    <model name='kdarpa_world'>
       <static>1</static>
       <pose>53 34 -16 0 -0 0</pose>
       <link name='ground_link'>
@@ -60,7 +60,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/ground_link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/ground_link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -82,7 +82,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/base_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/base_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -104,7 +104,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/front_door_link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/front_door_link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -126,7 +126,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/ground_in_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/ground_in_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -148,7 +148,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/indoor_fence_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/indoor_fence_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -170,7 +170,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_1_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_1_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -192,7 +192,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_2_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_2_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -214,7 +214,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_3_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_3_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -236,7 +236,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_4_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_4_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -258,7 +258,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_5_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_5_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -280,7 +280,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/outdoor_left_wall.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/outdoor_left_wall.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -302,7 +302,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/outdoor_right_wall.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/outdoor_right_wall.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -324,7 +324,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/second_out_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/second_out_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -346,7 +346,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/second_in_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/second_in_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -368,7 +368,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/open_window_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/open_window_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -390,7 +390,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/stair_2_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/stair_2_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -412,7 +412,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/handle_2_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/handle_2_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -434,7 +434,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/stair_3_link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/stair_3_link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -456,7 +456,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/handle_3_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/handle_3_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -478,7 +478,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_10_link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_10_link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -500,7 +500,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_11_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_11_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -522,7 +522,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_12_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_12_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -544,7 +544,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_13_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_13_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -566,7 +566,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_14_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_14_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -588,7 +588,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_15_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_15_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -610,7 +610,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_16_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_16_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -632,7 +632,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_7_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_7_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -654,7 +654,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_8_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_8_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -676,7 +676,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_9_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_9_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -698,7 +698,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/side_door_link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/side_door_link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -720,7 +720,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/ground_link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/ground_link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -735,7 +735,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/base_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/base_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -750,7 +750,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/front_door_link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/front_door_link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -765,7 +765,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/ground_in_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/ground_in_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -780,7 +780,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/indoor_fence_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/indoor_fence_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -795,7 +795,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/stair_1_link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/stair_1_link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -810,7 +810,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/handle_1_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/handle_1_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -825,7 +825,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_1_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_1_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -840,7 +840,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_2_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_2_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -855,7 +855,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_3_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_3_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -870,7 +870,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_4_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_4_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -885,7 +885,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_5_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_5_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -900,7 +900,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_6_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_6_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -915,7 +915,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/outdoor_left_wall.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/outdoor_left_wall.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -930,7 +930,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/outdoor_right_wall.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/outdoor_right_wall.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -945,7 +945,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/second_out_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/second_out_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -960,7 +960,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/second_in_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/second_in_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -975,7 +975,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/open_window_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/open_window_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -990,7 +990,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/stair_2_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/stair_2_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1005,7 +1005,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/handle_2_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/handle_2_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1020,7 +1020,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/stair_3_link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/stair_3_link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1035,7 +1035,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/handle_3_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/handle_3_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1050,7 +1050,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_10_link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_10_link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1065,7 +1065,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_11_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_11_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1080,7 +1080,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_12_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_12_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1095,7 +1095,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_13_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_13_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1110,7 +1110,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_14_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_14_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1125,7 +1125,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_15_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_15_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1140,7 +1140,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_16_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_16_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1155,7 +1155,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_7_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_7_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1170,7 +1170,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_8_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_8_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1185,7 +1185,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/window_9_Link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/window_9_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1200,7 +1200,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/duckyu/ws/duck_base/src/KDARPA/meshes/side_door_link.STL</uri>
+              <uri>/home/duckyu/ws/duck_base/src/kdarpa_world/meshes/side_door_link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -1595,7 +1595,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='KDARPA'>
+      <model name='kdarpa_world'>
         <pose>53 34 -16 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='ground_link'>
@@ -1605,7 +1605,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='KDARPA1'>
+      <model name='kdarpa_world1'>
         <pose>53.6752 33.666 -16.1613 0.003407 0.01316 0.000665</pose>
         <scale>1 1 1</scale>
         <link name='ground_link'>
@@ -6256,7 +6256,7 @@
       </link>
       <pose>5.56384 -0.570121 0 0 -0 0</pose>
     </model>
-    <model name='KDARPA1'>
+    <model name='kdarpa_world1'>
       <link name='ground_link'>
         <inertial>
           <pose>-14.3486 -23.7376 16.8145 0 -0 0</pose>
@@ -6275,7 +6275,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/ground_link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/ground_link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6297,7 +6297,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/base_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/base_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6319,7 +6319,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/front_door_link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/front_door_link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6341,7 +6341,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/ground_in_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/ground_in_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6363,7 +6363,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/indoor_fence_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/indoor_fence_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6385,7 +6385,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/stair_1_link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/stair_1_link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6407,7 +6407,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/handle_1_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/handle_1_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6429,7 +6429,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_1_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_1_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6451,7 +6451,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_2_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_2_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6473,7 +6473,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_3_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_3_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6495,7 +6495,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_4_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_4_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6517,7 +6517,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_5_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_5_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6539,7 +6539,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_6_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_6_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6561,7 +6561,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/outdoor_left_wall.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/outdoor_left_wall.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6583,7 +6583,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/outdoor_right_wall.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/outdoor_right_wall.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6605,7 +6605,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/second_out_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/second_out_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6627,7 +6627,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/second_in_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/second_in_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6649,7 +6649,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/open_window_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/open_window_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6671,7 +6671,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/stair_2_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/stair_2_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6693,7 +6693,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/handle_2_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/handle_2_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6715,7 +6715,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/stair_3_link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/stair_3_link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6737,7 +6737,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/handle_3_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/handle_3_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6759,7 +6759,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_10_link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_10_link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6781,7 +6781,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_11_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_11_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6803,7 +6803,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_12_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_12_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6825,7 +6825,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_13_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_13_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6847,7 +6847,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_14_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_14_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6869,7 +6869,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_15_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_15_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6891,7 +6891,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_16_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_16_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6913,7 +6913,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_7_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_7_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6935,7 +6935,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_8_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_8_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6957,7 +6957,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_9_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_9_Link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -6979,7 +6979,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/side_door_link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/side_door_link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -7001,7 +7001,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/ground_link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/ground_link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7016,7 +7016,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/base_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/base_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7031,7 +7031,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/front_door_link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/front_door_link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7046,7 +7046,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/ground_in_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/ground_in_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7061,7 +7061,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/indoor_fence_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/indoor_fence_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7076,7 +7076,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/stair_1_link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/stair_1_link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7091,7 +7091,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/handle_1_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/handle_1_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7106,7 +7106,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_1_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_1_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7121,7 +7121,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_2_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_2_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7136,7 +7136,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_3_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_3_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7151,7 +7151,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_4_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_4_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7166,7 +7166,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_5_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_5_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7181,7 +7181,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_6_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_6_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7196,7 +7196,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/outdoor_left_wall.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/outdoor_left_wall.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7211,7 +7211,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/outdoor_right_wall.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/outdoor_right_wall.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7226,7 +7226,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/second_out_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/second_out_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7241,7 +7241,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/second_in_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/second_in_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7256,7 +7256,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/open_window_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/open_window_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7271,7 +7271,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/stair_2_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/stair_2_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7286,7 +7286,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/handle_2_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/handle_2_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7301,7 +7301,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/stair_3_link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/stair_3_link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7316,7 +7316,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/handle_3_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/handle_3_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7331,7 +7331,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_10_link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_10_link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7346,7 +7346,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_11_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_11_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7361,7 +7361,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_12_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_12_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7376,7 +7376,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_13_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_13_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7391,7 +7391,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_14_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_14_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7406,7 +7406,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_15_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_15_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7421,7 +7421,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_16_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_16_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7436,7 +7436,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_7_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_7_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7451,7 +7451,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_8_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_8_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7466,7 +7466,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/window_9_Link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/window_9_Link.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -7481,7 +7481,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/lsh/catkin_ws/src/KDARPA/meshes/side_door_link.STL</uri>
+              <uri>/home/lsh/catkin_ws/src/kdarpa_world/meshes/side_door_link.STL</uri>
             </mesh>
           </geometry>
           <material>

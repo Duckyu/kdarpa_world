@@ -6,7 +6,7 @@
     default="False" />
   <param
     name="robot_description"
-    textfile="$(find KDARPA)/urdf/KDARPA.urdf" />
+    textfile="$(find kdarpa_world)/urdf/KDARPA.urdf" />
   <param
     name="use_gui"
     value="$(arg gui)" />
@@ -22,5 +22,5 @@
     name="rviz"
     pkg="rviz"
     type="rviz"
-    args="-d $(find KDARPA)/urdf.rviz" />
+    args="-d $(find kdarpa_world)/urdf.rviz" />
 </launch>
