@@ -1718,14 +1718,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/stair_3_link.STL" />
+          filename="package://kdarpa_world/meshes/stair_3_link.STL" />
       </geometry>
       <material
         name="">
         <color
           rgba="1 1 1 1" />
         <texture
-          filename="package://KDARPA/textures/Inner.jpg" />
+          filename="package://kdarpa_world/textures/Inner.jpg" />
       </material>
     </visual>
     <collision>
@@ -1734,7 +1734,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://KDARPA/meshes/stair_3_link.STL" />
+          filename="package://kdarpa_world/meshes/stair_3_link.STL" />
       </geometry>
     </collision>
   </link>
